@@ -1,0 +1,485 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require libs/normalize
+
+ */
+ @import "libs/_breve";
+
+body{
+	width:100%;
+
+	margin:0 auto;
+
+}
+ html{
+ 	text-align:center;
+
+ }
+.navbar {
+	border: 2px ;
+	text-decoration: none;
+	position: relative;
+	width:100%;
+	display: inline-block;
+	right: 0;
+	left: 0;
+
+
+		a{
+			font-size: 20px;
+			position:relative;
+			margin: 0 auto;
+			text-decoration: none;
+		}
+		img {
+	height:70px;
+	width:240px;
+	float:left;
+	margin-left:5px;
+	padding-right: 30px;
+}
+}
+
+.logo {
+	margin:0 auto;
+		ul{
+			padding: 0;
+			margin:0;
+			float:left;
+			list-style-type: none;
+				li{
+					padding:0;
+					display: inline-block;
+						a{
+							display: inline-block;
+							text-decoration: none;
+							padding:25px;
+							color:green;
+								&:hover{
+									background-color:#F0F0F0
+;
+								}
+						}
+				}
+		}
+}
+.right{
+
+	margin:0 auto;
+		ul{
+			padding: 0;
+			margin:0;
+			float:right;
+			list-style-type: none;
+				li{
+					padding:0;
+					display: inline-block;
+						a{
+							display: inline-block;
+							text-decoration: none;
+							padding: 25px;
+							color:green;
+								&:hover{
+									background-color:#F0F0F0;
+								}
+						}
+				}
+		}	
+		
+}
+input.search{
+	margin-left: 10px;
+	border:2px solid #d9d9de;
+	outline: none;
+	border-top: none;
+	border-bottom: none;
+	border-right:none;
+	margin-top: 10px;
+	width: 350px;
+	height: 50px;
+	font-size: 20px;
+	float: left;
+	color: green;
+	padding-left: 45px;
+	}	
+
+
+
+
+.fold_1 {
+	position:relative;
+	margin-top:-4px;
+	text-align: center;
+	background-color:#313175;
+	background-repeat: no-repeat;
+	background-size: 1284px 556px;
+	width:100%;
+	height:600px;
+	color:black;
+	font-weight: normal;
+	display: inline-block;
+
+		h1{
+			font-size:72px;
+			margin-top: 130px;
+			text-align: center;
+			color: white;
+		}
+		p{
+			font-size: 25px;
+			text-align: center;
+			color:white;
+
+		}
+}
+.myButton {
+	top:40px;
+	position:relative;
+	background-color: green;
+	border-radius: 28px;
+	border: 1px solid green;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 25px;
+	padding: 17px 23px;
+	text-decoration: none;
+	text-shadow:0px 1px 0px green;
+	margin:0 auto;
+		&:hover{
+			background-color:#B2E0C2;
+			border-color: #B2E0C2;
+			font-size: 30px;
+
+		}
+		a:active{
+			position:relative;
+			top:1px;
+
+		}
+
+}
+
+
+#socios{
+		padding-left: 25px;
+		text-align: center;
+		color:grey;
+		font-size: 30px;
+		padding-top: 75px;
+	
+	}
+
+.socios{
+	padding-top: 40px;
+	width:100%;
+	display: inline-block;
+	height:200px; 
+	bottom: 70px;
+	text-align: center;
+	padding-bottom: 200px;
+
+	img{
+	border:1px solid #CCCCCC;
+	padding-right: 20px;
+	display:inline-block;
+	margin:0 auto;
+	width:10%;
+	height:100%;
+	padding-left:70px;
+	display: inline-block;
+
+		}
+		a:hover{
+			img{
+			width:16%;
+			height: 120%;
+			margin: 0 auto;
+
+			}
+		}
+	}
+	
+
+.nosotros{
+	background-color: #194719;
+	margin:0 auto;
+	width:100%;
+	position: relative;
+	margin:0 auto;
+	display: block;
+
+	ul{
+		padding-right: 150px;
+		display: inline-block;
+		list-style-type: none;
+	}
+	li{
+		text-align: left;
+		a{
+
+			text-decoration: none;
+			color:#C2C2C2;
+			font-size: 14px;
+			font-family: Helvetica 
+
+		}
+		a:hover{
+			color:white;
+		
+		}
+		
+
+	}	
+	.nosotrosinic{
+		font-size:16px;
+		color:white;
+		font-family: bold;
+}
+}
+
+
+.fold_categorias {
+	position:relative;
+	margin-top:-4px;
+
+	background-color:#FFFFFA;
+	background-repeat: no-repeat;
+	background-size: 1284px 556px;
+	width:100%;
+	height:600px;
+	color:black;
+	font-weight: normal;
+		#cat1{
+	&:hover{
+			background-color:#4381C1;
+			border-color: #4381C1;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat2{
+	&:hover{
+			background-color:#BDADEA;
+			border-color: #BDADEA;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat3{
+	&:hover{
+			background-color:#BEA2C2;
+			border-color: #BEA2C2;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat4{
+	&:hover{
+			background-color:#A37871;
+			border-color: #A37871;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat5{
+	&:hover{
+			background-color:#4E4B5C;
+			border-color: #4E4B5C;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat6{
+	&:hover{
+			background-color:#67597A;
+			border-color: #67597A;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat7{
+	&:hover{
+			background-color:#544E61;
+			border-color: #544E61;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat8{
+	&:hover{
+			background-color:#00FFCC;
+			border-color: #00FFCC;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat9{
+	&:hover{
+			background-color:#FF0000;
+			border-color: #FF0000;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat10{
+	&:hover{
+			background-color:#FF0000;
+			border-color: #FF0000;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat11{
+	&:hover{
+			background-color:#FF0000;
+			border-color: #FF0000;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat12{
+	&:hover{
+			background-color:#6666FF;
+			border-color: #6666FF;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat13{
+	&:hover{
+			background-color:#FF0000;
+			border-color: #FF0000;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat14{
+	&:hover{
+			background-color:#FF0000;
+			border-color: #FF0000;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+		#cat15{
+	&:hover{
+			background-color:#FF0000;
+			border-color: #FF0000;
+			color:white;
+
+		}
+		a:active{
+			position:relative;
+		
+
+		}
+	}
+	.container_categorias{
+		margin: 0 auto;
+		vertical-align: middle;
+		display: inline-block;
+		padding: 50px 20px 70px 50px;
+	}
+	a{
+	position:relative;
+	background-color: white;
+	border-radius:none;
+	border: 1px solid grey;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 40px 40px;
+	text-decoration: none;
+	text-shadow:0px 1px 0px green;
+
+	}
+	h1{
+		margin-top:30px;
+		margin-bottom: 60px;
+	}
+}
