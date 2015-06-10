@@ -43,6 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
-gem "non-stupid-digest-assets"
+
 
 
