@@ -12,6 +12,15 @@ class ApplicationController < ActionController::Base
 	def aplica
 	render "/aplica"
 	end
+	def log_in
+	render "/log_in"
+	end
+	def register
+	render "/register"
+	end
+
+
+
 	 def email
   	UserMailer.email_verification(params[:name], params[:email]).deliver_now
   	puts "Se envio el correo."
