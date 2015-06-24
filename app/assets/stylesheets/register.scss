@@ -24,6 +24,7 @@
 	margin-top: 80px;
 	margin-bottom:50px;
 	height: 620px;
+	padding-bottom: 20px;
 
 	.u-form-group{
 		margin-top: 20px;
@@ -49,9 +50,9 @@ input.search1{
   font-family: Arial;
   color: #ffffff;
   font-size: 11px;
-  padding: 10px 141px 10px 141px;
+	padding: 10px 125px 10px 125px;
   margin-bottom: 20px;
-  margin-top:1px;
+  margin-top:25px;
 }
 
 .log_in:hover {
@@ -59,13 +60,15 @@ input.search1{
   text-decoration: none;
 }
 .facebook {
+  display: inline;
+  white-space: nowrap;
   background: #30487b;
   border-radius: 9px;
   font-family: Arial;
   color: #ffffff;
   font-size: 11px;
-  padding: 10px 109px 10px 109px;
-  margin-bottom: 30px;
+  padding: 10.5px 95px 10.5px 93px;
+  
 }
 
 .facebook:hover {

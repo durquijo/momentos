@@ -10,6 +10,7 @@
 	display: inline-block;
 	background-color: none;
 	border-top: 2px solid #d9d9de;
+	margin-bottom: -150px;
 }
 
 
@@ -21,7 +22,7 @@
 	margin-right: 450px;
 	margin-left: 450px;
 	margin-top: 80px;
-	margin-bottom:50px;
+	
 	height: 400px;
 
 	.u-form-group{
@@ -50,9 +51,10 @@ input.search1{
   font-family: Arial;
   color: #ffffff;
   font-size: 11px;
-	padding: 10px 146px 10px 146px;
+	padding: 10px 131px 10px 131px;
   margin-bottom: 20px;
   margin-top:25px;
+  white-space: nowrap;
 }
 
 .log_in:hover {
@@ -60,13 +62,15 @@ input.search1{
   text-decoration: none;
 }
 .facebook {
+  white-space: nowrap;
   background: #30487b;
   border-radius: 9px;
   font-family: Arial;
   color: #ffffff;
   font-size: 11px;
- padding: 10px 109px 10px 109px;
+ padding: 10.5px 95px 10.5px 93px;
   margin-bottom: 30px;
+  
 }
 
 .facebook:hover {
