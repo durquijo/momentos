@@ -275,8 +275,8 @@ input.search{
 .boxo{
 	display: inline-block;
 	margin: 0 auto;
-	text-align: left;
-	max-width: 1200px;
+	text-align: center;
+	max-width: 100%;
 	width: 100%;
 
 }
@@ -285,7 +285,7 @@ input.search{
 	display: inline-block;
 	border:1px solid #d9d9de;
 	height: 290px;
-	width: 319px;
+	width: 26.233553%;
 	margin-right:30px;
 	margin-left: 30px; 
 	margin-bottom: 30px;
@@ -330,8 +330,8 @@ input.search{
 		color:#949494;
 	}
 	img{
-		width:319px;
-		height: 290px;
+		width:100%;
+		height: 100%;
 	}
 
 			&.changeone{
