@@ -220,15 +220,16 @@ input.search{
 .nosotros{
 	background-color: #4C4C4C;
 	margin:0 auto;
-	width:100%;
+	max-width:100%;
 	position: relative;
 	margin:0 auto;
-	display: block;
+	max-height: 10%;
 
 	ul{
-		padding-right: 12.335%;
+		margin-right: 10%;
 		display: inline-block;
 		list-style-type: none;
+		vertical-align: top;
 	}
 	li{
 		text-align: left;
@@ -251,8 +252,8 @@ input.search{
 		font-size:16px;
 		color:white;
 		font-family: bold;
-		text-align: top;
-		display: block;
+		
+
 }
 }
 
