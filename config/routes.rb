@@ -7,7 +7,19 @@ Rails.application.routes.draw do
    get 'categorias' => 'application#categorias'
    get 'log_in' => 'application#log_in' 
    get 'register' => 'application#register'
-  get 'aplica' => 'application#aplica'
+   get 'aplica' => 'application#aplica'
+   get "/users/login", to: "users#login"
+   post "/users/login", to: "users#login_data", as: "login_path"
+
+
+
+
+
+
+
+
+
+   resources :users
      
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

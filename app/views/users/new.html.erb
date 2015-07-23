@@ -1,0 +1,50 @@
+<link rel="stylesheet" type="text/css" href="assets/register.scss">
+<% if @user && @user.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        Existen <%= pluralize(@user.errors.count, "error", "errores") %> en el formulario.
+      </h2>
+      <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+<% end %>
+
+
+
+<div class="login-box">
+  <div class="lb-header">
+  </div>
+  <form class="email-login">
+    <div class="u-form-group">
+          <h2>Register</h2>
+
+                      <%= form_for :user, url:users_path do |f| %>
+                      <div class="search1">
+                      <%= label :name, "Nombre completo"%>
+                      <%= f.text_field :name %>
+                      </div>
+                      <div class="search1">
+                      <%= label :email, "Email"%>
+                      <%= f.text_field :email %>
+                      </div>
+                      <div class="search1">
+                      <%= label :email2, "Confirmar Email"%>
+                      <%= text_field_tag :email2 %>
+                      </div>
+                      <div class="search1">
+                      <%= label :password, "Contraseña"%>
+                      <%= f.password_field :password %>
+                      </div>
+                      <div class="search1">
+                      <%= label :password2, "Vuelva a ingresar Constraseña"%>
+                      <%= password_field_tag :password2 %>
+    </div>
+         <div class="u-form-group">
+
+                      <%= f.submit "Crear Usuario" %>
+          </div>
+                      <% end %>
+</div>

@@ -11,6 +11,7 @@
  * file per style scope.
  *= require libs/normalize
 
+Revisar Linea 114.
  */
  @import "libs/_breve";
 
@@ -52,6 +53,7 @@ body{
 
 .logo {
 	margin:0 auto;
+
 		ul{
 			padding: 0;
 			margin:0;
@@ -61,9 +63,10 @@ body{
 					padding:0;
 					display: inline-block;
 						a{
+							margin-right: 10px;
+							font-size: 20px;
 							display: inline-block;
 							text-decoration: none;
-							padding:25px;
 							color:#848484;
 								&:hover{
 									background-color:#F0F0F0
@@ -84,9 +87,9 @@ body{
 					padding:0;
 					display: inline-block;
 						a{
+							font-size: 20px;
 							display: inline-block;
 							text-decoration: none;
-							padding: 25px;
 							color:#848484;
 								&:hover{
 									background-color:#F0F0F0;
@@ -96,6 +99,28 @@ body{
 		}	
 		
 }
+
+#Descuentos{
+ padding-top: 20%;
+ padding-bottom: 21%;
+}
+#Aplica{
+	padding-top: 39%;
+	padding-bottom: 40%;
+	padding-right: 20%;
+
+}
+
+
+/* Todabia falta por modificar esta parte de el CSS ya que no se queire mover en grupo y individualmente no logro cuadrarlos.
+#Log_in{
+}
+#Sign_up{
+
+}
+*/
+
+
 input.search{
 	margin-left: 10px;
 	border:2px solid #d9d9de;
